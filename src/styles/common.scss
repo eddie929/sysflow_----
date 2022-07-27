@@ -1,0 +1,10 @@
+.el-dialog__headerbtn {
+  top: 12px !important;
+  background: url('关闭.png') left no-repeat;
+  background-size: cover;
+}
+.el-dialog__headerbtn i {
+  content: '修改下面的font-size可以改变图片的大小';
+  font-size: 25px;
+  visibility: hidden;
+}

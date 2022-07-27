@@ -1,0 +1,37 @@
+const getters = {
+  sidebar: state => state.app.sidebar,
+  size: state => state.app.size,
+  device: state => state.app.device,
+  visitedViews: state => state.tagsView.visitedViews,
+  cachedViews: state => state.tagsView.cachedViews,
+  token: state => state.user.token,
+  permission_routes: state => state.permission.routes,
+  errorLogs: state => state.errorLog.logs,
+  // avatar: state => state.user.avatar,
+  // introduction: state => state.user.introduction,
+  // 当前登录用户信息
+
+  id_用户: state => state.user.id_用户,
+  id_角色: state => state.user.id_角色,
+  id_一级部门: state => state.user.id_一级部门,
+  id_二级部门: state => state.user.id_二级部门,
+  id_三级部门: state => state.user.id_三级部门,
+  登录名: state => state.user.登录名,
+  姓名: state => state.user.姓名,
+  工号: state => state.user.工号,
+  职务: state => state.user.职务,
+  邮箱: state => state.user.邮箱,
+  手机: state => state.user.手机,
+  办公电话: state => state.user.办公电话,
+  角色id: state => state.user.角色id,
+  角色lable: state => state.user.角色lable,
+  // 角色名称: state => state.user.角色名称,
+  一级部门编号: state => state.user.一级部门编号,
+  一级部门名称: state => state.user.一级部门名称,
+  二级部门编号: state => state.user.二级部门编号,
+  二级部门名称: state => state.user.二级部门名称,
+  三级部门编号: state => state.user.三级部门编号,
+  三级部门名称: state => state.user.三级部门名称,
+  roles: state => state.user.roles
+}
+export default getters
